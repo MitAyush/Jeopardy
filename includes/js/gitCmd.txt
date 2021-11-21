@@ -1,0 +1,2 @@
+git remote set-url origin https://github.com/user/repo2.git
+git checkout -b [name_of_your_new_branch]

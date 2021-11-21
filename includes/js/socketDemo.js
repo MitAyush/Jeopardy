@@ -2,7 +2,7 @@ let socket = io('http://localhost:3000', {
 	secure: true,
 	transports: ['websocket', 'polling']
 });
-
+ 
 socket.on('socket told to start game', data => {
 	const boardId = $('#board');
 	boardId.html(data.boardHtml);

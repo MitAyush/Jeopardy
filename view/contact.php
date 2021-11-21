@@ -77,13 +77,14 @@
 		</form>
 	</div>
 
-	<span style="padding: 10%;">Created By</span>
+	<br><br>
+	<!-- <span style="padding: 10%;">Created By</span>
 	<div class="contactInfo">
 		<div class="developer">
 			<span class="colorText"><a href="#">Ayush Kumar</a></span>
 		</div>
 		<div class="developer">
-			<span class="colorText"><a href="#">Ayush Kumar</a></span>
+			<span class="colorText"><a href="#">Madhu Verma</a></span>
 		</div>
 		<div class="developer">
 			<span class="colorText"><a href="#">Ayush Kumar</a></span>
@@ -94,7 +95,7 @@
 		<div class="developer">
 			<span class="colorText"><a href="#">Ayush Kumar</a></span>
 		</div>
-	</div>
+	</div> -->
 
 	<?php
 		require_once 'footer.php';

@@ -1,0 +1,55 @@
+=========================== Description ================================
+
+Tools
+
+html, css, js, jquery, foundation (popup (model))
+mysql, Nodejs(socket.io), express framework
+
+========================
+
+Motive
+
+=> multi-player game as we are in corona world and we can not meet with friends.
+=> education on gaming.
+=> self-learning.
+
+========================
+upper bound
+
+=> 18-20 person were okay (tested on chat system), but i dont know if more person joins. 
+
+==============
+server connection
+
+1. Xampp server for localhost (database or sql)
+2. server.js (node) for express framework (provide the facility to join room using socket)
+		 (cmd=> node ./server.js)
+
+
+====================
+Database
+
+mysql(tool) is used (RDBMS).(sql is language)
+
+1st task (to store the daily question on database. we have 4 tables.) we have created admin page to insert data into the related database. He can select level of questions(based on the points).
+
+============
+
+Frontend
+=> Login page (if not registered then use register page)
+=> Homepage (dashboard) -> create or join a game. On click on create code, a random code will generate. It will redirect to the game page.
+=> Game admin can start the game. Scorecard (update with every move) will display. On clicking game board question (selected points and category) will popup on everyone's window and a timer will start for every one (20s timer). 
+
+============
+Backend
+
+=> Composer (PHP package manager, Auto include (using namespace))
+=> SQL (Database connection (from function/Helper.php))
+=> socket.io
+=> Routing
+=> MVC pattern
+
+========== problem ========
+
+=> continues change in code (others were not happy)
+=> Generating random (proper) code.
